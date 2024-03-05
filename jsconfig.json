@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "baseUrl": "src"
+    },
+    "include": [
+        "src"
+    ],
+    "comments": {
+        "data": "valor",
+        "_coments": "configura que a base da URL e o caminho do arquivo em qualquer caminho dentro da pasta src será o src"
+    }
+}
