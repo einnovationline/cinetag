@@ -12,7 +12,6 @@ export default function Inicio(){
                 <h1>Para guardar os filmes!</h1>
             </TitleProject>
             <section className={styles.container}>
-                {console.log(videos)} 
                 {videos.map((video) => {
                     return <Card {...video} key={video.id} />
                 })}

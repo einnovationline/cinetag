@@ -10,10 +10,12 @@ function HeaderProject(){
                 <img src={logo} alt="Logo do cinetag"></img>
             </Link>
             <nav>
-                <HeaderLink url="./"/>
+                <HeaderLink url="./">
                     Home
-                <HeaderLink url="./Favorites"/>
+                    </HeaderLink>
+                <HeaderLink url="./Favorites">
                     Favorites
+                    </HeaderLink>
             </nav>
 
         </header>

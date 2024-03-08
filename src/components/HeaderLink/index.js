@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import styles from './HeaderLink.module.css'
 
-function HeaderLink({ url, children }){
+export default function HeaderLink({ url, children }){
     return(
         <Link to={url} className={styles.headerLink}>
             {children}
@@ -9,4 +9,4 @@ function HeaderLink({ url, children }){
     )
 }
 
-export default HeaderLink;
+//export default HeaderLink;
