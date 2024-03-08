@@ -6,6 +6,7 @@ import { useFavoriteContext } from 'components/Context/Favorites';
 
 export default function Favorites(){
     const { favorites } = useFavoriteContext()
+    console.log(favorites)
     return(
         <>
             <Banner imagem='favorites' />
