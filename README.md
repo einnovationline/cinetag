@@ -68,3 +68,52 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+src/
+	components/
+		|Banner/
+		|	Banner.modules.css
+		|	index.js   
+		|Card/
+		|	Card.modules.css
+		|	index.js
+		|	desfavoritar.png
+		|	favoritar.png
+		|Container/
+		|	Containter.modules.css
+		|	index.js
+		|FooterFooterProject/
+		|	FooterProject.modules.css
+		|	index.js
+		|HeaderLink/
+		|	headerLink.modules.css
+		|	index.js
+		|HeaderProject/
+		|	index.js
+		|	logo.png
+		|	header.modules.css
+		|TitleProject/
+		|	index.js
+		|	logo.png
+		|	header.modules.css
+	|pages/
+	|	inicio/
+	|		inicio.js
+	|		Inicio.module.css
+	|		Favorites/
+	|			Favorites.module.css
+	|			index.js
+	|json/
+		db.json
+index.js
+index.css
+routes.js
+Public/
+	Images/
+		banner-favoritos.png
+		banner-home.png
+		banner-player.png
+		favoritos_outline.png
+		favorite.png
+		logo.png
